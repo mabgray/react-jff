@@ -54,7 +54,7 @@ class CampsiteInfo extends Component {
         
         if(this.props.campsite){
             return (
-                
+            <div className="container">
                 <div className="row">
                    
                     {this.renderCampsite(this.props.campsite)}
@@ -62,6 +62,7 @@ class CampsiteInfo extends Component {
                   
                    
                 </div>
+            </div>
             )
         
 
